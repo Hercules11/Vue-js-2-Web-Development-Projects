@@ -1,5 +1,5 @@
 <template>
-  <ul class="movies">
+  <ul class="moviens">
     <Movie
       v-for="(movie, index) of movies"
       :key="index"
