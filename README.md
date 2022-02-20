@@ -1,28 +1,33 @@
-# Vue.js 2 Web Development Projects
-This is the code repository for [Vue.js 2 Web Development Projects](https://www.packtpub.com/web-development/vuejs-2-web-development-projects?utm_source=github&utm_medium=repository&utm_campaign=9781787127463), published by [Packt](https://www.packtpub.com/?utm_source=github). It contains all the supporting project files necessary to work through the book from start to finish.
-## About the Book
-Do you want to make your web application amazingly responsive? Are you unhappy with your app's performance and looking forward to trying out ways to make your app more powerful? Then Vue.js, a framework for building user interfaces, is a great choice, and this book is the ideal way to put it through its paces.
+## Vue2 Web Development Projects
 
-This book's project-based approach will get you to build six stunning applications from scratch and gain valuable insights in Vue.js 2.5. You'll start by learning the basics of Vue.js and create your first web app using directives along with rich and attractive user experiences. You will learn about animations and interactivity by creating a browser-based game. Using the available tools and preprocessor, you will learn how to create multi-page apps with plugins. You will create highly efficient and performant functional components for your app. Next, you will create your own online store and optimize it. Finally, you will integrate Vue.js with the real-time Meteor library and create a dashboard showing real-time data.
+## 本书涵盖的内容
 
-By the end of this book you will have enough skills and will have worked through enough examples of real Vue.js projects to create interactive professional web applications with Vue.js 2.5.
+**第1章，Vue开发入门** 。这一章介绍如何利用动态模板创建一个基本的Vue应用，以及如何通过指令实现基本的交互。
 
-## Instructions and Navigation
-All of the code is organized into folders. Each folder starts with a number followed by the application name. For example, Chapter02.
+**第2章，项目1：Markdown笔记本** 。这一章探索创建一个完整的Vue应用要使用的功能，例如计算属性、函数、生命周期钩子、列表渲染、DOM事件、动态CSS、模板条件和过滤器格式化等。
 
+**第3章，项目2：城堡决斗游戏** 。这一章阐述浏览器卡牌游戏的创建，其结构如同一棵树，由可以相互通信且可复用的组件组成。该游戏还拥有动画和动态的SVG图形。
 
+**第4章，高级项目配置** 。这一章关注如何使用官方提供的Vue命令行工具（CLI），根据CLI的向导使用Webpack、Babel以及更多构建工具来构建一个完整的项目。同时还介绍了单文件组件的格式，让开发者能够创建组件作为构建块。
 
-The code will look like the following:
-```
-<top-bar :turn="turn" :current-player-index="currentPlayerIndex"         
-      :players="players" />
-```
+**第5章，项目3：支持中心** 。这一章介绍如何利用官方路由库来组织一个多页面应用，涉及嵌套路由、动态参数和导航守卫等。此项目还拥有自定义用户登录系统。
 
-To follow this book, you will only need a text or code editor (Visual Studio Code and Atom are recommended) and a web browser (preferably the latest version of Firefox or Chrome for the development tools).
+**第6章，项目4：博客地图** 。这一章带你创建一个利用Google OAuth登录和Google Maps API的应用。还介绍了利用官方提供的VueX库进行状态管理，以及快速功能组件等重要内容。
 
-## Related Products
-* [Vue.js 2 and Bootstrap 4 Web Development](https://www.packtpub.com/web-development/vuejs-2-and-bootstrap-4-web-development?utm_source=github&utm_medium=repository&utm_campaign=9781788290920)
+**第7章，项目5：在线商店以及扩展** 。这一章概述一些高级开发技术。例如，使用ESLint做代码质量检查，使用Jest对Vue组件进行单元测试，将应用翻译为多语言，以及使用服务端渲染技术提高速度和解决搜索引擎优化（SEO）的问题。
 
-* [Web development with Vue.js 2 [Video]](https://www.packtpub.com/web-development/web-development-vuejs-2-video?utm_source=github&utm_medium=repository&utm_campaign=9781788395298)
+**第8章，项目6：使用Meteor开发实时仪表盘** 。这一章教你如何在Meteor应用中使用Vue，以利用这个全栈框架的实时处理功能。
 
-* [The Ultimate Vue JS 2 Developers Course [Video]](https://www.packtpub.com/application-development/ultimate-vue-js-2-developers-course-video?utm_source=github&utm_medium=repository&utm_campaign=9781788394086)
+## 项目预览
+
+项目1：Markdown笔记本
+
+项目2：城堡决斗游戏
+
+项目3：支持中心
+
+项目4：博客地图
+
+项目5：在线商店以及扩展
+
+项目6：使用Meteor开发实时仪表盘
