@@ -20,14 +20,14 @@
 
 ## 项目预览
 
-项目1：Markdown笔记本
+项目1：[Markdown笔记本](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter02/chapter2-full/index.html)
 
-项目2：城堡决斗游戏
+项目2：[城堡决斗游戏](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter03/chapter3-full/index.html)
 
-项目3：支持中心
+项目3：[支持中心](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter02/chapter2-full/index.html)
 
-项目4：博客地图
+项目4：[博客地图](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter02/chapter2-full/index.html)
 
-项目5：在线商店以及扩展
+项目5：[在线商店以及扩展](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter02/chapter2-full/index.html)
 
-项目6：使用Meteor开发实时仪表盘
+项目6：[使用Meteor开发实时仪表盘](https://hercules11.github.io/Vue-js-2-Web-Development-Projects/Chapter02/chapter2-full/index.html)

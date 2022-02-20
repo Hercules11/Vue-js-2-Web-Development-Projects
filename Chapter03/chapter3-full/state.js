@@ -1,9 +1,9 @@
-// Some usefull variables
-var maxHealth = 10
-var maxFood = 10
-var handSize = 5
-var cardUid = 0
-var currentPlayingCard = null
+// Some usefull letiables
+let maxHealth = 10
+let maxFood = 10
+let handSize = 5
+let cardUid = 0
+let currentPlayingCard = null
 
 // The consolidated state of our app
 var state = {
