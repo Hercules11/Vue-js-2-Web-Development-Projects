@@ -4,8 +4,8 @@
 </head>
 <body>
   <!-- Include the library in the page -->
-  <script src="https://unpkg.com/vue/dist/vue.js"></script>
-
+  <!-- <script src="https://unpkg.com/vue/dist/vue.js"></script> -->
+<script src="https://unpkg.com/vue@next"></script>
   <!-- Some HTML -->
   <div id="root">
     <p>{{ message }}</p>
@@ -17,17 +17,26 @@
   console.log('Yes! We are using Vue version', Vue.version)
 
   // New VueJS instance
-  var app = new Vue({
-    name: 'my-app',
-    // CSS selector of the root DOM element
-    el: '#root',
-    // Some data
-    data () {
+  // var app = new Vue({
+  //   name: 'my-app',
+  //   // CSS selector of the root DOM element
+  //   el: '#root',
+  //   // Some data
+  //   data () {
+  //     return {
+  //       message: 'Hello Vue.js!',
+  //     }
+  //   },
+  // })
+  const demo = {
+    data() {
       return {
-        message: 'Hello Vue.js!',
+        message: 'Welcome to Vue3!'
       }
-    },
-  })
+    }
+  }
+
+  Vue.createApp(demo).mount('#root')
   </script>
 </body>
 </html>
