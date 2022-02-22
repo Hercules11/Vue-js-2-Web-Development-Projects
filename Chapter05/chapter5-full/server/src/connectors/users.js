@@ -1,4 +1,4 @@
-import bcrypt from 'bcrypt'
+import * as bcrypt from 'bcrypt-nodejs'
 import { Users } from '../providers'
 import * as Tickets from './tickets'
 
@@ -13,11 +13,11 @@ export async function getByUsername (username) {
 }
 
 export async function isPasswordMatching (user, password) {
-  return await bcrypt.compare(password, user.password)
+  return await bcrypt.compareSync(password, user.password)
 }
 
 export async function hashPassword (password) {
-  return await bcrypt.hash(password, SALT_ROUNDS)
+  return await bcrypt.hashSync(password, bcrypt.genSaltSync(SALT_ROUNDS));
 }
 
 export async function createUser ({ username, email, password }) {
